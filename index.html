@@ -1,30 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>My html Assignment</title>
- </head>
-
-<header  style="text-align: center; color:black;background-color: white;">
-  <h1>HTML ASSIGNMENT</h1> 
-</header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
-    <div>
-        <p>This is my html assignment that includes the header,main and footer. This particular assignment is meant to be pushed to my Git hub repository. It's my first assignment on M4ace and i'm glad to be on it.</p>
-        <p>Below would be a form i'd be creating.</p>
-    </div>
-<form action="#" method="post">
-    <!--NAME-->
-    <label for="name">FULL NAME:</label>
-    <input type="text" id="name" name="name" required> <br> 
-   <label for="email">EMAIL:</label>
-    <input type="email" id="email" name="email" required> <br>    
- <label>GENDER:</label><br>
-    <input type="radio" name="gender" value="Male" required> Male<br> 
-    <input type="radio" name="gender" value="Female" required> Female <br>     
-</form>
-</body>
-<footer>
-<p>Copyright &copy; 2026, MY MINI WEBSITE</p>
+    <!--HEADER-->
+    <header id="main-header">
+        <h1 class="logo">Petra Essence</h1>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Panties</a></li>
+                <li><a href="#">Self Care</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--MAIN CONTENT-->
+    <main>
+
+        <!--FIRST SECTION-->
+        <section class="first">
+            <h2>Confidence Starts Underneath</h2>
+            <p>Soft, Comfortable essentials for everyday confidence</p>
+            <button class="shop-btn">Shop Now</button>
+        </section>
+
+        <!--ABOUT SECTION-->
+        <section id="about">
+            <h2>About Petra Essence</h2>
+        <p>
+            Petra Essence focuses on feminine comfort, confidence and self-care.
+        </p>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="my-footer">
+        <p>© 2026 Petra Essence. All rights reserved.</p>
     </footer>
+</body>
 </html>
