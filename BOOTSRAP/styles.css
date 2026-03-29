@@ -1,0 +1,22 @@
+
+/* Custom pink color */
+.text-pink{
+color:#ff69b4;
+}
+
+/* Custom button */
+.btn-pink{
+background:#ff69b4;
+color:white;
+border:none;
+}
+
+/* Hover effect */
+.btn-pink:hover{
+background:#e0559f;
+}
+
+/* Body background */
+body{
+background:#ffe6f0;
+}
