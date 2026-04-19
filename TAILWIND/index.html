@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TastyFoodie</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class= "flex items-center justify-center min-h-screen">
+
+<!-- MAIN CONTAINER -->
+<div class="bg-[#e8dfd3] w-[80%] max-w-3xl p-8">
+
+    <!-- NAVBAR -->
+    <nav class="flex justify-between items-center mb-8">
+
+        <!-- LOGO -->
+        <h1 class="text-2xl font-bold">TastyFoodie</h1>
+
+        <!-- NAV LINKS -->
+        <ul class="hidden md:flex gap-6 text-sm">
+            <li>Home</li>
+            <li>Menu</li>
+            <li>About Us</li>
+            <li>Contact</li>
+        </ul>
+
+        <!-- BUTTONS -->
+        <div class="flex gap-3">
+            <button class="border border-orange-500 px-4 py-1 rounded">Log In</button>
+            <button class="bg-orange-500 text-white px-4 py-1 rounded">Sign Up</button>
+        </div>
+
+    </nav>
+
+
+    <!-- HERO SECTION -->
+    <div class="flex flex-col md:flex-row items-center gap-8">
+
+        <!-- LEFT TEXT -->
+        <div class="flex-1">
+
+            <h2 class="text-3xl font-bold mb-4">
+                Order your favorite meals<br>
+                and experience fast and <br>
+                reliable delivery
+            </h2>
+
+            <p class="text-sm text-gray-700 mb-6">
+                Designed with speed and convenience in mind, the platform connects users
+                with nearby restaurants for fast delivery and a seamless experience.
+            </p>
+
+            <!-- BUTTONS -->
+            <div class="flex gap-4 mb-6" >
+                <button class="border border-orange-500 px-4 py-2 rounded">
+                    Explore Menu
+                </button>
+
+                <button class="bg-orange-500 text-white px-4 py-2 rounded">
+                    Order Now
+                </button>
+            </div>
+
+            <!-- APP BUTTONS -->
+            <div class="flex justify-center gap-4 mt-8">
+                <button class="bg-black text-white px-4 py-2 text-xs rounded">
+                    Google Play
+                </button>
+
+                <button class="bg-black text-white px-4 py-2 text-xs rounded">
+                    App Store
+                </button>
+            </div>
+
+        </div>
+
+
+        <!-- RIGHT IMAGES -->
+        <div class="flex-1 flex justify-center items-center gap-4">
+
+            <img src="images/food.png">
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
